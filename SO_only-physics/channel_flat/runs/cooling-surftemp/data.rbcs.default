@@ -1,0 +1,8 @@
+ &RBCS_PARM01
+   useRBCtemp=.TRUE.,
+   tauRelaxT=604800.0,
+   relaxTFile='temprelaxFile.bin',
+   relaxMaskFile(1)='tempmaskFile.bin',
+ &
+ &RBCS_PARM02
+ &
