@@ -55,8 +55,8 @@
  &PARM03
 # deltaT=300.0,
  deltaTmom=40.,
-# deltaTtracer=300.,
- nIter0=0002727000,
+# deltaTtracer=40.,
+ nIter0=2835000,
 # 1 years: nTimeSteps=103680
 # nTimeSteps=64800,
  nTimeSteps=108000,

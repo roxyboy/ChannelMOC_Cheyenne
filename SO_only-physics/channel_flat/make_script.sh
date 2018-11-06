@@ -5,10 +5,10 @@
 # $srun --pty -t 0-03:00 -A ocp -w node<node number> /bin/bash
 
 
-ROOT='/rigel/ocp/users/tu2140/MITgcm' 
+ROOT='/glade/work/takayauc/MITgcm'
 GENMAKE=$ROOT'/tools/genmake2'
 MOD=$ROOT'/SO_only-physics/channel_flat/code'
-OPTFILE=${ROOT}'/SO_only-physics/channel_flat/code/linux_ia64_ifort+mpi_habanero_takaya'
+OPTFILE=${ROOT}'/SO_only-physics/channel_flat/code/linux_amd64_ifort+mpi_cheyenne'
 
 cd build
 ${GENMAKE} -mpi -rootdir=${ROOT} -mods=${MOD} -of=${OPTFILE}
