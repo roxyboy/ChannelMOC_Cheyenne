@@ -4,7 +4,8 @@
 #Currently Loaded Modules:
 #  1) ncarenv/1.0        3) intel/12.1.5         5) netcdf/4.3.0
 #  2) ncarbinlibs/1.0    4) ncarcompilers/1.0    6) impi/4.0.3.008
-module load intel/18.0.1 mpt/2.18 netcdf/4.6.1
+#module load intel/18.0.1 mpt/2.18 netcdf/4.6.1
+module load intel/17.0.1 mpt/2.15f netcdf/4.6.1
 
 FC=mpif90
 CC=mpicc
@@ -26,5 +27,5 @@ FFLAGS="-fPIC -convert big_endian -assume byterecl -align"
 FDEBUG='-W0 -WB'
 FFLAGS="$FDEBUG $FFLAGS"
 
-FOPTIM='-O2'
+FOPTIM='-O3'
 FOPTIM="$FOPTIM -ip -fp-model precise -traceback -ftz"
