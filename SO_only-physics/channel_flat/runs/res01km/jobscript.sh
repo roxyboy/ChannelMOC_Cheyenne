@@ -16,7 +16,7 @@
 #PBS -M takaya@ldeo.columbia.edu
 
 #echo $SLURM_JOB_NODELIST > nodelist.$$
-NPROC=1600
+NPROC=1250
 
 #module load intel/18.0.1 mpt/2.18 netcdf-mpi/4.6.1
 module load intel/17.0.1 mpt/2.15f netcdf/4.6.1
